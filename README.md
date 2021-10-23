@@ -1,1 +1,2 @@
 # rockPaperScissor
+Pretty much project
