@@ -42,6 +42,39 @@ body{
     color: white;
 }
 
+
+#log{
+    margin: 0;
+    display: flex;
+    border: solid 2px #A9333A;
+    background-color: #090910;
+    border-radius: 10px;
+    height: 40px;
+    width: 630px;
+    font: 100 15px "Source Code Pro";
+    color: #A9333A;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    box-sizing: content-box;
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#inputContainer{
+    display: flex;
+    width: 630px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
 #userInput{
     display: block;
     border: solid 4px #A9333A;
@@ -55,6 +88,7 @@ body{
 }
 
 #compInput{
+    display: flex;
     border: solid 4px #A9333A;
     background-color: #090910;
     border-radius: 10px;
@@ -62,8 +96,15 @@ body{
     width: 300px;
     font: bold 20px "Ubuntu";
     color: #A9333A;
-    text-align: center;
+    align-content: center;
     justify-content: center;
 }
+
+input[type="button"]{
+    width: 630px;
+}
+
+#compInput>p{
+    align-self: center;
 }
 
