@@ -1,3 +1,4 @@
+/** 
 const move = ['Rock','Paper','Scissor'];
 let playerPoint,
     computerPoint,
@@ -55,3 +56,9 @@ function playRound (cmpMove, plyMove){
         console.log("Tied")
     }
 }
+
+ */
+
+const docs = document.querySelector('input[type="button"]');
+docs.value = docs.getAttribute('data-reset-placeholder');
+console.log(log);

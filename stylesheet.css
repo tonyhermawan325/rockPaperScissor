@@ -40,6 +40,16 @@ body{
     background-color: #090910;
     font: "Ubuntu";
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    width: 60px;
+    align-self: flex-start;
+    padding-left: 10px;
+    margin: 0;;
 }
 
 
@@ -58,7 +68,7 @@ body{
 }
 #container{
     box-sizing: content-box;
-    min-width: 100%;
+    min-width: 650px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -77,7 +87,7 @@ body{
 
 #userInput{
     display: block;
-    border: solid 4px #A9333A;
+    border: solid 2px #A9333A;
     background-color: #090910;
     border-radius: 10px;
     height: 100px;
@@ -89,7 +99,7 @@ body{
 
 #compInput{
     display: flex;
-    border: solid 4px #A9333A;
+    border: solid 2px #A9333A;
     background-color: #090910;
     border-radius: 10px;
     height: 100px;
@@ -101,7 +111,14 @@ body{
 }
 
 input[type="button"]{
+    border-radius: 5px;
+    border: 0;
+    height: 30px;
     width: 630px;
+    background-color: #A9333A;
+    font: bold 20px "Ubuntu";
+    color: #090910;
+    
 }
 
 #compInput>p{
