@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="domApp.js" defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="loadingAnim.js" defer></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="container"><p>blue is warmest color</p></div>
+    <!--
+        <div id="loader">
+        <p class="loaderTitle">Rock</p>
+        <p class="loaderTitle">Paper</p>
+        <p class="loaderTitle">Scissor</p>
+    </div>
+    -->
+
+    
+    <div id="container">
+        <h1 id="title"> 
+            Rock 
+            Paper 
+            Scissor </h1>
+        <p id="log" data-placeholder="Welcome! Lets Play!">Welcome! Lets Play!</p>
+        <div id="inputContainer">
+            <input type="text" name="userInput" id="userInput" placeholder="Rock/Paper/Scissor?">
+            <div id="compInput">
+                <p data-default-placeholder="Computer Input">Computer Input</p>
+            </div>
+            
+        </div>
+        <input type="button" value="Play!" id="playButton" class="button" data-defaultValue="Play!">
+        <input type="button" value="Reset!" id="resetButton" class="button">
+        
+        
+    </div>
+    
 </body>
 </html>
