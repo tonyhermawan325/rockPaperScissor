@@ -110,7 +110,7 @@ h1{
     justify-content: center;
 }
 
-input[type="button"]{
+.button{
     border-radius: 5px;
     border: 0;
     height: 30px;
